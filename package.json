@@ -1,0 +1,32 @@
+{
+  "name": "reg-numbers-webapp",
+  "version": "1.0.0",
+  "description": "registration plates webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+  "node": "4.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callumfraser/reg-numbers-webapp.git"
+  },
+  "keywords": [
+    "geniet-die-blerry-ding"
+  ],
+  "author": "caelim-the-gr8st",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callumfraser/reg-numbers-webapp/issues"
+  },
+  "homepage": "https://github.com/callumfraser/reg-numbers-webapp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.8",
+    "mongoose": "^4.9.7"
+  }
+}

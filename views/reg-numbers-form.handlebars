@@ -1,0 +1,29 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Generate registration numbers</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Welcome to the WC registration number page</h1>
+    </div>
+    <br>
+    <div class="inputDiv">
+        <form class="" action="/reg_numbers" method="post">
+            <input class="textInput"placeholder="Enter plate code here"type="text" name='regNumberInput'><br><br>
+            <input name="addButton" type="submit" value="Add registration number"class="button"><br><br>
+            <input type="radio" name="townFilter" value="AllTowns" >All towns
+            <input type="radio" name="townFilter" value="Paarl"> Paarl
+            <input type="radio" name="townFilter" value="CapeTown"> Cape Town
+            <input type="radio" name="townFilter" value="Bellville"> Bellville <br><br>
+            <input name="filterButton" type="submit" value="Filter registration plates" class="button2"><br><br>
+            <input name="clearDB" type="submit"value="Clear History of Registration Numbers" class="button3"> <br><br>
+          </form>
+    </div>
+        {{#each plates}}
+        <div class="regPlate">
+        {{code}}
+        </div>
+        {{/each}}
+    <br><br>
+</body>
