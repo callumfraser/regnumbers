@@ -1,6 +1,6 @@
 # Registration Numbers WebApp
 
-![Image Registration Numbers](http://backend-basics.projectcodex.co/reg_number_select_town.jpg)
+![Image Registration Numbers]("Screen Shot 2017-11-29 at 8.58.21 PM.png")
 * Registration number display for valid numbers in Cape Town, Paarl and Bellville.
 * Displays number plates with rounded corners and a yellow background, with a black border.
 * Users are able to add to the plates in the app by typing into a text input field and clicking "Add registration number".
